@@ -6,5 +6,6 @@ I create a django app to send emails and populate a database after a registratio
 Then, the two tasks are offloaded to Celery to improve web app loading speed.
 
 # requirements
-We will do the execution using Redis and RabbitMQ
+- Message Broker: Redis or RabitMQ
+- wkhtmltopdf
 
